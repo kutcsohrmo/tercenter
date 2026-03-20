@@ -2,6 +2,11 @@ a[href*="mobiri.se"],
 a[href*="mobiri.se"] * {
     pointer-events: none !important;
 }
+@media (max-width: 768px) {
+    a[href*="mobirise.com"] {
+        display: none !important;
+    }
+}
 .top-banner {
     width: 100%;
     background: linear-gradient(91deg, #C2330E, #C2330E);
